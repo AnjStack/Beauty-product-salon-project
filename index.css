@@ -1,0 +1,325 @@
+body{
+  background-image: url('https://i.pinimg.com/originals/7a/c0/3b/7ac03b0beae3fedd1e96bbc832f7a661.jpg');
+  background-size: 100% 800px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  max-height: 100%;
+}
+
+
+
+/* navbar start */
+nav{
+  width: 100%;
+  height: 260px;
+  background-color: rgba(0,0,0,0.8);
+  float: left;
+  box-sizing: border-box;
+  padding: 30px;
+}
+#welcome{
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#menu{
+  width: 750px;
+  height: 70px;
+  margin-top: 10px;
+
+}
+
+#nav-item {
+  box-sizing: border-box;
+  width: 20%;
+  height: 70px;
+  box-sizing: border-box;
+  text-align: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+
+
+}
+
+/* end navbar */
+
+/*start section */
+
+#home-section {
+  width: 700px;
+  height: 407px;
+  box-sizing: border-box;
+  float: right;
+}
+
+#logo{
+  width: 180px;
+  height: 180px;
+  box-sizing: border-box;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 150px;
+  background-color: black;
+  margin-top: 200px;
+}
+
+#logo-text{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 150px;
+  margin-top: -20px;
+
+}
+#domain{
+  color: black;
+  text-transform:capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 150px;
+}
+
+
+/* nav page start */
+#domain_name{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+font-size: 60px;
+font-family: sans-serif;
+}
+
+
+/* end nav page */
+
+/* start login form */
+
+fieldset{
+  width: 350px;
+  height: 250px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 150px;
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px;
+}
+
+#login-section{
+  width: 700px;
+  height: 407px;
+  box-sizing: border-box;
+  float: right;
+  padding: 100px;
+  
+
+}
+
+legend{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+
+#login-form{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 25px;
+  
+}
+
+#username {
+  width: 100%;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+
+#password{
+  width: 100%;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 10px;
+  font-size: 18px;
+
+}
+
+#login-btn{
+  width: 100px;
+  height: 35px;
+  float: right;
+  margin-top: 20px;
+  background-color: inherit;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+/* end login form */
+
+#contact-us{
+  width: 500px;
+  height: 400px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  border-style: none;
+  border-width: 2px;
+  border-color: #fff;
+  border-style: solid;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#contact {
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+address{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+#products {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+#main{
+  font-size: 40px;
+  text-decoration: none;
+  color:#ffff;
+  text-align: center;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+#main {
+  color: black;
+  text-align: center;
+
+}
+#box {
+  width: 300px;
+  height: 300px;
+  background-image: url('https://th.bing.com/th/id/OIP.b7tBWrlzuJ3H-HPSUQG_SQHaGK?rs=1&pid=ImgDetMain');
+  background-repeat: no-repeat;
+  overflow: hidden; /* Hide the part of the image that overflows the container */
+  border-radius: 10px; /* Optional: Rounded corners for the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background-position: center;
+  display: inline-block;
+  justify-content: space-around;
+  margin-left: 18px;
+  margin-right: 10px;
+  margin-top: 50px;
+  visibility:visible;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+ 
+}
+
+#btn{
+  width: 180px;
+  height:80px;
+  float: right;
+  margin-top: 10px;
+  border-width: 8px;
+  border-style: groove;
+  border-color: blue;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+#item-ul  {
+  text-decoration: none;
+  list-style: none;
+}
+/* Footer section */
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* Footer links styling */
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
